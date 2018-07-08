@@ -1,0 +1,36 @@
+{
+  "name": "vicos/yii2-image-manager",
+  "description": "The Image Manager for redactor Imperavi Yii2 Framework",
+  "keywords": ["yii2", "image manager"],
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://bitbucket.org/sergKs/yii2-image-manager"
+  },
+  "authors": [
+    {
+      "name": "sergKs",
+      "email": "serg31ks@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-bootstrap": "~2.0",
+    "vova07/yii2-imperavi-widget": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "sergks\\imagemanager\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

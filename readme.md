@@ -10,7 +10,7 @@ composer require --dev --prefer-dist sergks/yii2-image-manager
 или добавить в composer.json
 ```php
 "require-dev": {
-    "sergks/yii2-image-manager": "@dev"
+    "vicos/yii2-image-manager": "@dev"
 }
 ```
 

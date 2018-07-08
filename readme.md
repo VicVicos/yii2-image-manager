@@ -19,7 +19,7 @@ composer require --dev --prefer-dist sergks/yii2-image-manager
 ```php
 'modules' => [
     'imageManager' => [
-        'class' => 'sergks\imagemanager\ImageManager',
+        'class' => 'vicos\imagemanager\ImageManager',
         'directoryRoot' => 'uploads'
     ]
 ]

@@ -4,7 +4,7 @@
 ## Установка
 Выполнить команду в консоли
 ```bash
-composer require --dev --prefer-dist sergks/yii2-image-manager
+composer require --dev --prefer-dist vicos/yii2-image-manager
 ```
 
 или добавить в composer.json
@@ -19,7 +19,7 @@ composer require --dev --prefer-dist sergks/yii2-image-manager
 ```php
 'modules' => [
     'imageManager' => [
-        'class' => 'sergks\imagemanager\ImageManager',
+        'class' => 'vicos\imagemanager\ImageManager',
         'directoryRoot' => 'uploads'
     ]
 ]
@@ -28,7 +28,7 @@ composer require --dev --prefer-dist sergks/yii2-image-manager
 Добавить в вызов виджета
 ```php
 use vova07\imperavi\Widget;
-use sergks\imagemanager\ImageManagerAsset;
+use vicos\imagemanager\ImageManagerAsset;
 
 <?= $form->field($model, 'username')->widget(Widget::className(), [
     'settings' => [

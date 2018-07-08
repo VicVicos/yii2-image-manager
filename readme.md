@@ -1,5 +1,6 @@
 # Yii2 Image Manager
 Расширение для управления изображениями для редактора Imperavi [https://github.com/vova07/yii2-imperavi-widget](https://github.com/vova07/yii2-imperavi-widget).
+Перводим на git
 
 ## Установка
 Выполнить команду в консоли

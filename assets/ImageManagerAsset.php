@@ -1,6 +1,6 @@
 <?php
 
-namespace sergks\imagemanager\assets;
+namespace vicos\imagemanager\assets;
 
 use yii\web\AssetBundle;
 
@@ -9,7 +9,7 @@ class ImageManagerAsset extends AssetBundle
 	/**
 	 * @inheritdoc
 	 */
-	public $sourcePath = '@vendor/sergks/yii2-image-manager/assets/';
+	public $sourcePath = '@vendor/vicos/yii2-image-manager/assets/';
 
 	/**
 	 * @inheritdoc

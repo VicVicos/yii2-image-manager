@@ -1,11 +1,11 @@
 <?php
 
-namespace sergks\imagemanager\controllers;
+namespace vicos\imagemanager\controllers;
 
 use finfo;
 use himiklab\thumbnail\EasyThumbnailImage;
 use InvalidArgumentException;
-use sergks\imagemanager\ImageManager;
+use vicos\imagemanager\ImageManager;
 use yii;
 use yii\filters\AccessControl;
 use yii\helpers\FileHelper;

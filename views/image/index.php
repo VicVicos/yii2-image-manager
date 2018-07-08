@@ -5,7 +5,7 @@
 /* @var $selectedDirectory array */
 /* @var $images array */
 
-use sergks\imagemanager\ImageManager;
+use vicos\imagemanager\ImageManager;
 use yii\helpers\Html;
 use yii\helpers\Url;
 

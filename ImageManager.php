@@ -1,6 +1,6 @@
 <?php
 
-namespace sergks\imagemanager;
+namespace vicos\imagemanager;
 
 use yii;
 
@@ -38,7 +38,7 @@ class ImageManager extends yii\base\Module
 		}
 		$tree = '<ul class="tree">';
 		foreach ($folders as $folder) {
-			$tree .= Yii::$app->view->render('@vendor/sergks/yii2-image-manager/views/image/directory', ['model' => $folder]);
+			$tree .= Yii::$app->view->render('@vendor/vicos/yii2-image-manager/views/image/directory', ['model' => $folder]);
 			$tree .= self::renderFolders($folder['items']);
 		}
 		$tree .= '</ul>';

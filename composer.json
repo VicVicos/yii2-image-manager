@@ -5,7 +5,7 @@
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
   "support": {
-    "source": "https://bitbucket.org/sergKs/yii2-image-manager"
+    "source": "https://github.com/VicVicos/yii2-image-manager"
   },
   "authors": [
     {
